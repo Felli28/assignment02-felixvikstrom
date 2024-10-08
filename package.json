@@ -1,0 +1,16 @@
+{
+  "name": "assignment02-felixvikstrom",
+  "version": "1.0.0",
+  "description": "* Andreas Arousi\r * Fahri Kuzey\r * Nadia Ben Abla\r * Rafael Silva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "playwright": "^1.47.2"
+  }
+}
