@@ -129,7 +129,7 @@ test.describe('Car rental test suite', () => {
     });
     
 
-    // Test 8: Ta bort en kund (DELETE)
+    
     test('8. Delete a customer', async ({ request }) => {
         const customerToDeleteID = 4;
 
@@ -149,6 +149,14 @@ test('9. Get  customers', async ({ request }) => {
     const response = await request.get('http://localhost:9090/api/v1/customers');
     expect(response.status()).toBe(200);
 });
+
+
+test('10. Get prders', async  ({ request }) => {
+    const response = await request.get('http://localhost:9090/api/v1/orders');
+    expect(response.status()).toBe(200);
+});
+
+
 
 
     
